@@ -1,0 +1,73 @@
+allow_embedding: false
+package_name: Custom_HTML_1
+name: Clone of Custom HTML 1 (3)
+startup_form: Form1
+correct_dependency_ids: {}
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
+  server_spec: null}
+dependencies: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+- source: /runtime/services/google.yml
+  client_config:
+    app_files:
+    - capabilities: {canEdit: true, canCopy: true}
+      editable: true
+      copyable: true
+      embedLink: https://docs.google.com/spreadsheets/d/12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38/htmlembed?ouid=107990160018317840974
+      copyRequiresWriterPermission: false
+      python_name: base_school_survey
+      explicitlyTrashed: false
+      lastModifyingUser:
+        displayName: Nathalia Anahi Vásquez Pacheco
+        kind: drive#user
+        isAuthenticatedUser: false
+        permissionId: '16664152186364402085'
+        emailAddress: navasquez2019@gmail.com
+        picture: {url: 'https://lh3.googleusercontent.com/a-/ALV-UjWj5X4tknOce1zIz0svYUOBoYiape5QNr8-2H0DICriXow=s64'}
+      shared: true
+      createdDate: '2023-06-04T00:50:53.031Z'
+      id: 12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38
+      owners:
+      - displayName: Moisés Carrasco
+        kind: drive#user
+        isAuthenticatedUser: true
+        permissionId: 06947116457199758293
+        emailAddress: moncho2512@gmail.com
+        picture: {url: 'https://lh3.googleusercontent.com/a/ACg8ocL67H-Cmvth_wxSu3B63L4Czy7ZVkN1aRza6FOqB1BAPoA=s64'}
+      markedViewedByMeDate: '1970-01-01T00:00:00.000Z'
+      spaces: [drive]
+      parents:
+      - {selfLink: 'https://www.googleapis.com/drive/v2/files/12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38/parents/0AO0qY_qwWjjRUk9PVA',
+        id: 0AO0qY_qwWjjRUk9PVA, isRoot: true, kind: drive#parentReference, parentLink: 'https://www.googleapis.com/drive/v2/files/0AO0qY_qwWjjRUk9PVA'}
+      labels: {viewed: true, restricted: false, starred: false, hidden: false, trashed: false}
+      iconLink: https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.spreadsheet
+      selfLink: https://www.googleapis.com/drive/v2/files/12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38
+      lastViewedByMeDate: '2023-11-15T10:23:56.789Z'
+      userPermission: {id: me, type: user, role: owner, kind: drive#permission, selfLink: 'https://www.googleapis.com/drive/v2/files/12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38/permissions/me',
+        etag: '"VbW64TbfLERVvPtj0CIMy1UYx9E"', pendingOwner: false}
+      lastModifyingUserName: Nathalia Anahi Vásquez Pacheco
+      etag: '"MTY5ODA3NDQ2MTEzNw"'
+      kind: drive#file
+      modifiedByMeDate: '2023-10-20T20:12:40.018Z'
+      title: Base-school-survey
+      version: '285'
+      appDataContents: false
+      writersCanShare: true
+      fileSize: '29572'
+      alternateLink: https://docs.google.com/spreadsheets/d/12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38/edit?usp=drivesdk
+      mimeType: application/vnd.google-apps.spreadsheet
+      modifiedDate: '2023-10-23T15:21:01.137Z'
+      quotaBytesUsed: '29572'
+      exportLinks: {x-vnd.oasis.opendocument.spreadsheet: 'https://docs.google.com/spreadsheets/export?id=12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38&exportFormat=ods',
+        tab-separated-values: 'https://docs.google.com/spreadsheets/export?id=12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38&exportFormat=tsv',
+        pdf: 'https://docs.google.com/spreadsheets/export?id=12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38&exportFormat=pdf',
+        vnd.openxmlformats-officedocument.spreadsheetml.sheet: 'https://docs.google.com/spreadsheets/export?id=12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38&exportFormat=xlsx',
+        csv: 'https://docs.google.com/spreadsheets/export?id=12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38&exportFormat=csv',
+        zip: 'https://docs.google.com/spreadsheets/export?id=12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38&exportFormat=zip',
+        vnd.oasis.opendocument.spreadsheet: 'https://docs.google.com/spreadsheets/export?id=12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38&exportFormat=ods'}
+      thumbnailLink: https://docs.google.com/feeds/vt?gd=true&id=12EKJiNOFgfxfCDujzAAbk5CIkrSq2yOqhuBhvY2Mo38&v=177&s=AMedNnoAAAAAZWVEou5eszEO_vm9w3FxSs5BUhZJ_y64&sz=s220
+      ownerNames: [Moisés Carrasco]
+  server_config: {}
